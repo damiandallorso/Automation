@@ -1,0 +1,94 @@
+{
+  "id": "aad2a65a-7c9f-4dfc-a8a3-99bfabd836fe",
+  "version": "2.0",
+  "name": "Selenium IDE",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "0f296f55-c26b-4ae2-9aaf-c20dbf54262f",
+    "name": "fdfsd",
+    "commands": [{
+      "id": "9f0cf35b-6313-4ba4-801c-397aaae19d34",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4a90bd0-9c7c-418f-9a53-ebdc3806bf01",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20071ed4-5a66-4812-86a2-f6c05bfeaa4c",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.productShowcaseSection > h2",
+      "targets": [
+        ["css=.productShowcaseSection > h2", "css:finder"],
+        ["xpath=//div[4]/div/div[2]/div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Ready to use IDE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a5c09d0-971b-46a1-884f-c7697b8fc611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='main_navbar']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d135ebf-8d01-46df-86bd-f1afbdcb2fee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#m-documentationide > span",
+      "targets": [
+        ["css=#m-documentationide > span", "css:finder"],
+        ["xpath=//a[@id='m-documentationide']/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'IDE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ab10228-6498-4d04-b3c7-4009a65c66a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Selenium IDE",
+      "targets": [
+        ["linkText=Selenium IDE", "linkText"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium IDE')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '//selenium.dev/selenium-ide')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e447b39e-2537-4b3e-9738-4df1d662cb2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerTitleWithLogo",
+      "targets": [
+        ["css=.headerTitleWithLogo", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Selenium IDE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "82b9e39e-2b57-4361-b7c1-7e3115bc8b9c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f296f55-c26b-4ae2-9aaf-c20dbf54262f"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}
