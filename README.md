@@ -1,2 +1,2 @@
 # Automation
-Automation repository to viewers
+Automation repository for viewers
